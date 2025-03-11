@@ -1,5 +1,5 @@
 # Curso de Programação em Python 🐍
-Este repositório contém os projetos, exercícios e anotações que desenvolvi durante o curso de Programação Python Completo do Zero ao Avançado (Atualizado para Python 3.12). O objetivo deste curso é aprofundar conhecimentos em Python, abordando conceitos básicos, intermediários e avançados.
+Este repositório contém os projetos, exercícios e anotações que desenvolvi durante o curso de **Programação Python Completo do Zero ao Avançado (Atualizado para Python 3.12)**. O objetivo deste curso é aprofundar conhecimentos em Python, abordando conceitos básicos, intermediários e avançados.
 
 # Tópicos a serem Abordados
 - **Estrutura da linguagem:** saída de dados com `print()`, manipulação de variáveis e uso de operadores aritméticos básicos como `+`, `-`, `/`, `*`.
