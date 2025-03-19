@@ -16,7 +16,7 @@ print (ord('b')) # Retorna o valor ASCII do caractere
 '''
 # Utilizando IF
 
-idade = int(input('Digite sua idade: ')) # Captura a idade do usuário
+idade = int(input('Digite sua idade: ')) # Captura a idade do usuário 
 
 if idade >= 18:
     print('Maior de idade!')
