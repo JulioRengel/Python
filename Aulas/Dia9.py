@@ -55,6 +55,41 @@ for letra in palavra:
 
     print(f'{letra} Esta dentro da palavra {palavra}')
 '''
-
+'''
 # For Loop - Utilizando If e Else
 
+# Enviar um e-mail com os detalhes da compra online (MAximo 3 tentativas) para compras comfirmadas. 
+
+compraConfirmada = True
+dadosCompra = 'Compra no valor de R$ 12.50 e entrega confirmada'
+
+for enviar in range(3):
+    if compraConfirmada:
+        print(dadosCompra)
+        print('Detalhes enviado pa seu e-mail')
+        break
+else:
+    print('Falha na compra')
+'''
+'''
+# For Loop - Nested Loops
+# Outer loop (loop de fora)
+# Inner loop (loop de dentro)
+
+for numero1 in range(5):
+    print(numero1)
+    for numero2 in range(5):
+        print(numero1, numero2)
+'''
+'''
+# For Loop - Separando Strings
+
+# Modificando FANTASTICO para F A N T A S T I C O 
+
+palavra = 'FANTASTICO'
+
+for spaco in palavra:
+    print(f' {spaco}', end=' ')
+'''
+
+# For Loop - Criando um Retangulo
