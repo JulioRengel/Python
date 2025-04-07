@@ -91,5 +91,46 @@ palavra = 'FANTASTICO'
 for spaco in palavra:
     print(f' {spaco}', end=' ')
 '''
-
+'''
 # For Loop - Criando um Retangulo
+
+linhas = 6
+colunas = 6
+simbolo = '|'
+
+for l in  range(linhas):
+    for c in range(colunas):
+        print(simbolo, end='')
+    print()
+'''
+'''
+# == Conhecendo o While Loop ===
+# Excelente para loops dependentes de uma condição
+# Criar uma prmoção para um produto no valor de R$ 100,00
+valor = 100
+dia = 0
+
+while valor > 20:
+    dia += 1
+    print(f' no dia {dia} o produto será vendido por: R$ {valor}')
+    valor -= 5
+'''
+'''
+# Operador Ternário
+
+idade = 14
+
+resultado = 'Voto permitido' if idade >= 16 else 'Voto não permitido'
+
+print (resultado)
+'''
+
+# Criando condiçoes com While Loop
+# Publicar um produto com comissão de 10% se for acim a de R$ 20
+
+valor = float(input('Digite o valor do seu produto em R$: '))
+
+while valor > 20: 
+    valor = (valor * 0.10) + valor
+    print(f'O valor do final do seu prduto será de R$ {valor: .2f}')
+    break
