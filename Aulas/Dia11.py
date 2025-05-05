@@ -58,10 +58,97 @@ print (item3)
 print (outros)
 '''
 
-
+'''
 #Looping dentro de uma lista
 
 valores =  [50, 80, 110, 150, 170]
 
 for x in valores:
     print(f' O valor final do produto é de R$ {x}')
+'''
+'''
+# Verificando itens em uma lista
+
+corCliente = input('Digite a cor desejada: ')
+cores = ['amarelo', 'verde', 'azul', 'vermelho']
+
+if corCliente.lower() in cores: #lower() detecta escrita em maiuscula e minuscula
+    print('Em estoque')
+else:
+    print('Não temos esta cor em estoque')
+'''
+'''
+# Agregando duas listas com o Zip
+
+cores = ['amarelo', 'verde', 'azul', 'vermelho']
+valores = [10, 20, 30, 40]
+
+duasListas = zip(cores, valores)
+
+print(list(duasListas))
+'''
+'''
+# Input em uma lista 
+frutasUsuario = input('Digite o nome das frutas separados por virgula: ')
+frutasLista = frutasUsuario.split(', ')
+print(frutasLista)
+'''
+'''
+# Entendendo sobre Tuples
+
+coresList = ['amarelo', 'verde', 'azul', 'vermelho']
+coresTuples = ('amarelo', 'verde', 'azul', 'vermelho')
+
+print(type(coresList))
+print(type(coresTuples))
+'''
+'''
+# Trabalhando com Arrays 
+    # Arrays (Matriz)
+    # Melhor performance
+from array import array
+letras = ['a', 'b', 'c', 'd']
+numeros_i = [10, 20, 30, 40]
+numeros_f = [1.2, 2.2, 3.2]
+
+print(letras)
+print(numeros_i)
+print(numeros_f)
+
+letras = array('u', ['a', 'b', 'c', 'd'])
+numeros_i = array('i', [10, 20, 30, 40])
+numeros_f = array ('f', [1.2, 2.2, 3.2] )
+
+print(letras)
+print(numeros_i)
+print(numeros_f)
+'''
+'''
+# Criando Sets
+    #Set (Listas)
+    #Evita itens duplicados
+    #Não utiliza index 
+
+list1 = [10, 20, 30, 40, 50]
+list2 = [10, 20, 60, 70]
+
+num1 = set(list1)
+num2 = set(list2)
+
+print(num1 | num2) # operador |(Union): une as duas lista e retira os repetidos.
+print(num1 -  num2) # operador - (Difference): gera duas lista excluindo os numeros repetidos.
+print(num1 ^ num2) # operador ^ (Symmetric Difference): gera duas lista e tira os numeros duplicados.
+print(num1 & num2) # operador & (and): gera uma lista só com os numeros repetidos. 
+
+print(len(list1)) # permite ver a cantidade de intens contida na lista. 
+'''
+
+# Funções em Sets
+
+list1 = [1, 2, 3, 4, 5, 6]
+s1 = {1, 2, 3, 4, 5, 6}
+
+print(list1)
+print(s1)
+print(type(list1))
+print(type(s1))
