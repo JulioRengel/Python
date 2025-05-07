@@ -142,13 +142,41 @@ print(num1 & num2) # operador & (and): gera uma lista só com os numeros repetid
 
 print(len(list1)) # permite ver a cantidade de intens contida na lista. 
 '''
-
+'''
 # Funções em Sets
+    #Similar a listas
+    #Evita itens duplicados
+    #Não utiliza index 
 
-list1 = [1, 2, 3, 4, 5, 6]
-s1 = {1, 2, 3, 4, 5, 6}
-
-print(list1)
+# list1 = [1, 2, 3, 4, 5, 6]
+s1 = {1, 2, 3, 4, 5, 6, 2}
+s1.add(4)
+s1.update([7, 8, 9])
+s1.remove(9) #Gera erro quando o numero não esta na lista
+s1.discard(8)# não gera erro quando o numero não este na lista.
+# print(list1)
 print(s1)
-print(type(list1))
-print(type(s1))
+# print(type(list1))
+#print(type(s1))
+'''
+'''
+#Sets com strings
+
+set1 = {'a', 'b', 'c'}
+set2 = {'a', 'd', 'e'}
+set3 = {'c', 'd', 'f'}
+
+# set4 = set1.union(set2)
+# set4 = set1.difference(set3)
+# set4 = set1.intersection(set2)
+set4 = set1.symmetric_difference(set3)
+
+print(set4)
+'''
+#Introdução a Dicionarios. 
+    # Utiliza o index no formato Keys e Values
+    # Aceita string, integer, float, boolean...
+
+aluno = {'nome': 'ana', 'idade': 16, 'nota final': 'A', 'aprovação': True}
+
+print(aluno)
