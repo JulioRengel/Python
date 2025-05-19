@@ -173,10 +173,41 @@ set4 = set1.symmetric_difference(set3)
 
 print(set4)
 '''
+'''
 #Introdução a Dicionarios. 
     # Utiliza o index no formato Keys e Values
     # Aceita string, integer, float, boolean...
 
 aluno = {'nome': 'ana', 'idade': 16, 'nota final': 'A', 'aprovação': True}
 
+#Atualizando itens no dicionario
+# 1º) aluno['nome'] = 'Jose' atualiza um por vez. 
+# 2º) aluno.update({'nome': 'Julio', 'nota final': 'B'}) atualiza varios campos de uma vez. 
+# aluno.update({'endereço': 'Rua flor'}) #atualiza varios campos de uma vez. 
+
+del aluno['idade']
+# print(aluno.get('endereço', 'Não existe'))
 print(aluno)
+'''
+'''
+# Looping dentro de um dicionario
+
+aluno = {'nome': 'ana', 'idade': 16, 'nota final': 'A', 'aprovação': True}
+
+for keys, values in aluno.items():
+    print(keys, values)
+'''
+
+#Visualizando Itens, Keys e Values
+aluno = {
+    'nome': 'ana', 
+    'idade': 16, 
+    'nota final': 'A', 
+    'aprovação': True, 
+    'Materias': ['Fisica', 'Matematica', 'Ingles']
+    }
+
+print(aluno)
+
+print(aluno.get('Materias'))
+print(len(aluno))
