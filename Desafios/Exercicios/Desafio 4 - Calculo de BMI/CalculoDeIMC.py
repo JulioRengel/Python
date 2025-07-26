@@ -42,7 +42,7 @@ else:
     print('Magreza')
 
 
-
+'''
 # Solução do profesor
 
 altura =  float(input('Qual é sua Altura em cm: '))
@@ -60,3 +60,4 @@ elif IMC >= 30.0 and IMC < 39.9:
     print('Obesidade')
 else:
     print('Obesidade Grave')
+'''
