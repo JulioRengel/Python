@@ -40,6 +40,7 @@ if numero > 10:
 else:
     print('O número é menor ou igual a 10')
 '''
+'''
 idade = int(input('Digite sua idade: '))
 
 if idade < 13:
@@ -48,3 +49,18 @@ elif idade <= 19:
     print('Você é um adolescente!')
 else:
     print('Você é adulto!')
+'''
+'''
+carrosEmEstoque = ['BMW X6', 'BMW i5', 'BMW i8' ]
+carro = input('Digite o nome do veiculo que deseja comprar: ')
+
+if carro in carrosEmEstoque:
+        print('Este carro está disponível')
+else:
+    print('Desculpe, este carro não está disponível')
+'''
+while True:
+    fruta = input('Adivine o nome da fruta: ')
+    if fruta.lower() == 'abacate':
+        break
+print('Parabéns, você acertou a fruta!')
