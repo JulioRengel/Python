@@ -59,8 +59,19 @@ if carro in carrosEmEstoque:
 else:
     print('Desculpe, este carro não está disponível')
 '''
+'''
 while True:
     fruta = input('Adivine o nome da fruta: ')
     if fruta.lower() == 'abacate':
         break
 print('Parabéns, você acertou a fruta!')
+'''
+
+# numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numeros = list(range(1,11))
+
+for num in numeros:
+    if num % 2 == 0:
+        print(f'O número {num} é par!')
+    else:
+        print(f'O número {num} é ímpar!')
