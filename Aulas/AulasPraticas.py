@@ -66,7 +66,7 @@ while True:
         break
 print('Parabéns, você acertou a fruta!')
 '''
-
+'''
 # numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 numeros = list(range(1,11))
 
@@ -75,3 +75,28 @@ for num in numeros:
         print(f'O número {num} é par!')
     else:
         print(f'O número {num} é ímpar!')
+'''
+'''
+cidades = ('Belo Horizonte', 'São Paulo', 'Rios de Janeiro' )
+cidadeUsuario = input('Digite o nome da sua cidade:')
+
+if cidadeUsuario in cidades:
+    print('A cidade esta na lista de cidades.')
+else:
+    print('A cidade não esta na lista de cidades.')
+'''
+
+capitais = {
+    'Brasil': 'Brasília',
+    'Argentina': 'Buenos Aires',
+    'Venezuela': 'Caracas',
+    'Australia': 'Canberra',
+    'Canada': 'Ottawa'
+}
+
+paisUsuario = input('Digite o nome do País:')
+
+if paisUsuario in capitais:
+    print(f'A capital de {paisUsuario} é {capitais[paisUsuario]}')
+else:
+    print('Desculpe, não temos informaçoes dobre a capital desse país.')
