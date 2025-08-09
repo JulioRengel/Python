@@ -85,7 +85,7 @@ if cidadeUsuario in cidades:
 else:
     print('A cidade não esta na lista de cidades.')
 '''
-
+'''
 capitais = {
     'Brasil': 'Brasília',
     'Argentina': 'Buenos Aires',
@@ -100,3 +100,20 @@ if paisUsuario in capitais:
     print(f'A capital de {paisUsuario} é {capitais[paisUsuario]}')
 else:
     print('Desculpe, não temos informaçoes dobre a capital desse país.')
+'''
+'''
+amigos1 = {'Luis', 'Carlos', 'Maria', 'Sharly', 'Gary'}
+amigos2 = {'Luisa', 'Sharly', 'Gary', 'Maria', 'Stefania'}
+
+amigos3 = amigos1.__and__(amigos2)
+
+print(amigos3)
+'''
+'''
+def quadrado(numero):
+    return numero ** 2
+
+num = int(input('Digite um numero: '))
+
+print(f'O quadrado de {num} é {quadrado(num)}')
+'''
