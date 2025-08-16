@@ -117,3 +117,12 @@ num = int(input('Digite um numero: '))
 
 print(f'O quadrado de {num} é {quadrado(num)}')
 '''
+
+def soma(num1, num2):
+    return num1 + num2
+    # print(f'A soma dos dois numeros é igual a: {result}')
+
+userNum1 = int(input('Digite o primeiro numero: '))
+userNum2 = int(input('Digite o segundo numero: '))
+
+print(f'A soma dos dois numeros é igual a: {soma(userNum1, userNum2)}')
